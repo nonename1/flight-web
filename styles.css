@@ -1,0 +1,54 @@
+/* 設定整體頁面樣式 */
+body {
+    
+    font-family: Arial, sans-serif; /* 使用 Arial 字體，後備字體為 sans-serif */
+    margin: 0; /* 移除預設的外邊距 */
+    padding: 0; /* 移除預設的內邊距 */
+    background-color: #f4f4f0; /* 設定頁面背景顏色為淡灰色 */
+}
+
+/* 頁面頂部的標題區域樣式 */
+header {
+    background-color: #4CAF50; /* 背景顏色為綠色 */
+    color: white; /* 文字顏色為白色 */
+    padding: 2rem; /* 添加內邊距以增強視覺效果 */
+    text-align: center; /* 文字置中 */
+}
+
+section {
+    font-size: 20px;
+    background-color: rgb(139, 236, 207); /* 背景顏色為綠色 */
+    color: black; /* 文字顏色為白色 */
+    padding: 1%;
+}
+
+.right-button {
+    display: flex;
+    margin-left: auto;
+    padding: 20px;
+    background-color: aqua;
+}
+
+.title{
+    text-align:center;
+}
+
+.list{
+    display : flex;
+    align-items: center;
+}
+select {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    color: #000000;
+    background-color: rgb(245, 241, 189);
+}
+
+footer {
+    background-color: #fabae1;
+    height: 1cm;
+    text-align: center;
+    color: white;
+}
